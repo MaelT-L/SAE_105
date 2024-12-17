@@ -1,0 +1,52 @@
+.navbar {
+    height: 50%;
+}
+
+.presentation {
+    height: 100vh;
+    background-image: url(./pictures/fond4.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+}
+
+.row {
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px; 
+    flex-wrap: wrap;
+}
+
+.col {
+    background-color: #D5D5D5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 5px 5px #A1A1A1;
+}
+
+.col p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.col button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 25px;
+    font-size: 1rem;
+}
