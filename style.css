@@ -1,12 +1,15 @@
-body, header {
-     background-color: #1B263B;
+body{
+     background-color: #CEE1F3;
+}
+
+header {
+    background-color: #1B263B;
 }
 
 
 /* Style de la navigation */
 .navbar {
     height: 70px;
-    color: #cee1f3;
 }
 
 .custom-links {
@@ -28,11 +31,11 @@ body, header {
 }
 
 /* Style du texte de présentation */
-h1 {
+.presentation-text h1 {
     color: #d3be49;
 }
 
-p {
+.presentation-text p {
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -40,7 +43,7 @@ p {
 
 .presentation {
     height: 100vh;
-    background-image: url(./pictures/fond4.jpeg);
+    background-image: url(./images/fond/fond4.jpeg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
@@ -57,7 +60,7 @@ p {
 
 .presentation-text {
     background-color: rgba(206, 225, 243, 0.5);
-    /* backdrop-filter: blur(8px); */
+    backdrop-filter: blur(8px);
     border-radius: 12px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
     width: 70%;
@@ -68,21 +71,19 @@ p {
 .row {
     display: flex; 
     justify-content: center;
-    gap: 70px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    gap: 50px;
+    margin: 80px 40px;
     flex-wrap: wrap;
     max-width: 100%;
 }
 
 .col-article {
-    background-color: rgba(206, 225, 243, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
-    backdrop-filter: blur(8px);
     padding: 20px;
     text-align: center;
-    box-shadow: 10px 10px 16px #CED4DA;
-    max-width: 400px;
+    box-shadow: 7px 7px 20px #CED4DA;
+    max-width: 80%;
 }
 
 .col-article p {
@@ -91,11 +92,27 @@ p {
     color: black;
 }
 
-.col-article button {
+.col-article a {
+    text-decoration: none;
     background-color: #d3be49;
-    color: #F8F9FA;
+    /* color: #F8F9FA; */
     border: none;
     padding: 10px 20px; 
     border-radius: 25px;
     font-size: 1rem;
+}
+
+/* Style du footer */
+footer {
+    background-color: #1B263B;
+    position: static;
+    width: 100%;
+    padding: 10px 0;
+}
+
+footer h3 {
+    color: #d3be49;
+    font-size: 20px;
+    text-align: end;
+    margin-right: 10px;
 }

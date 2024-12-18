@@ -1,0 +1,86 @@
+body{
+    background-color: #CEE1F3;
+}
+
+header {
+   background-color: #1B263B;
+}
+
+/* Style de la navigation */
+.navbar {
+   height: 70px;
+   color: #cee1f3;
+}
+
+.custom-links {
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+   padding: 0;
+   margin: 0;
+   font-size: 25px;
+   color: #cee1f3;
+}
+
+.custom-links .nav-link {
+   color: #d3be49;
+}
+
+.custom-links .nav-link:hover {
+   color: #cee1f3;
+}
+
+/* Style de la partie Chalet */
+h1 {
+    margin: 40px 0;
+}
+
+.chalets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 95%;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+/* Style du footer */
+footer {
+    background-color: #1B263B;
+    position: static;
+    width: 100%;
+    padding: 10px 0;
+}
+
+footer h3 {
+    color: #d3be49;
+    font-size: 20px;
+    text-align: end;
+    margin-right: 10px;
+}
