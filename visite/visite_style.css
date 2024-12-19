@@ -1,0 +1,63 @@
+body {
+   margin: 0;
+}
+
+/* Style de la navigation */
+.navbar {
+   height: 70px;
+   color: #cee1f3;
+   background-color: #1B263B;
+   z-index: 1000;
+   position: relative;
+   top: 0;
+}
+
+.custom-links {
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+   padding: 0;
+   margin: 0;
+   font-size: 25px;
+   color: #cee1f3;
+}
+
+.custom-links .nav-link {
+   color: #d3be49;
+   text-decoration: none;
+}
+
+.custom-links .nav-link:hover {
+   color: #cee1f3;
+}
+
+/* Style du footer */
+footer {
+   background-color: #1B263B;
+   position: fixed;
+   width: 100%;
+   padding: 10px 0;
+   z-index: 1000;
+   bottom: 0;
+   /* position: absolute;
+    align-items: end; */
+}
+
+footer h3 {
+   color: #d3be49;
+   font-size: 20px;
+   text-align: end;
+   margin-right: 10px;
+}
+
+a-scene {
+   position: absolute;
+   top: 70px;
+   /* Hauteur de la navbar */
+   left: 0;
+   width: 100%;
+   height: calc(100% - 70px - 40px);
+   /* Enlever la hauteur du footer */
+   z-index: 0;
+   /* S'assurer qu'il reste en arrière-plan */
+}
