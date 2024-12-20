@@ -1,12 +1,14 @@
-body{
-     background-color: #CEE1F3;
+body {
+    background-color: #CEE1F3;
+    overflow-x: hidden;
 }
 
 /* Style de la navigation */
 .navbar {
     height: 70px;
-   color: #cee1f3;
-   background-color: #1B263B;
+    color: #cee1f3;
+    background-color: #1B263B;
+    z-index: 1000
 }
 
 .custom-links {
@@ -66,7 +68,7 @@ body{
 
 /* Style de la partie boutons */
 .row {
-    display: flex; 
+    display: flex;
     justify-content: center;
     gap: 50px;
     margin: 80px 40px;
@@ -94,7 +96,7 @@ body{
     background-color: #d3be49;
     /* color: #F8F9FA; */
     border: none;
-    padding: 10px 20px; 
+    padding: 10px 20px;
     border-radius: 25px;
     font-size: 1rem;
 }
@@ -112,4 +114,27 @@ footer h3 {
     font-size: 20px;
     text-align: end;
     margin-right: 10px;
+}
+
+.snowflake {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    opacity: 0.8;
+    animation: fall linear infinite;
+    z-index: 900;
+}
+
+@keyframes fall {
+    0% {
+        top: -10px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 100vh;
+        opacity: 0;
+    }
 }

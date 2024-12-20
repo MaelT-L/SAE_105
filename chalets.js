@@ -114,7 +114,9 @@ const chalets = [
 
 // récupère les infos et les mets dans la carte pop up au moment du click
 document.addEventListener('DOMContentLoaded', () => {
+    //sélectionne la cible "chaletModal"
     document.querySelectorAll('[data-bs-target="#chaletModal"]').forEach(link => {
+        //attends l'évènement click
         link.addEventListener('click', () => {
             // Récupère le bon index
             const index = link.getAttribute('data-index');
