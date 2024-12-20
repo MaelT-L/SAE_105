@@ -1,5 +1,5 @@
 body {
-    background-color: #CEE1F3;
+    background-color: #f2f6fa;
     overflow-x: hidden;
 }
 
@@ -29,6 +29,7 @@ body {
     color: #cee1f3;
 }
 
+
 /* Style du texte de présentation */
 .presentation-text h1 {
     color: #d3be49;
@@ -42,7 +43,7 @@ body {
 
 .presentation {
     height: 100vh;
-    background-image: url(./images/fond/fond4.jpeg);
+    background-image: url(./images/fond/fond6.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
@@ -77,7 +78,7 @@ body {
 }
 
 .col-article {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(156, 167, 186, 0.5);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -94,7 +95,7 @@ body {
 .col-article a {
     text-decoration: none;
     background-color: #d3be49;
-    /* color: #F8F9FA; */
+    color: #1B263B;
     border: none;
     padding: 10px 20px;
     border-radius: 25px;
