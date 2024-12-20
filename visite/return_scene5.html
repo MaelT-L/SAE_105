@@ -36,7 +36,23 @@
       <a-camera wasd-controls-enabled="false"></a-camera>
       <a-sphere material="color: #00c7fc" position="0.768 1.691 28.048" link="href:scene6.html"></a-sphere>
       <a-sphere material="color: #ff00ff" position="-4.97 1.691 -40" link="href:return_scene4.html"></a-sphere>
+      <!-- Boutons infos -->
+      <a-sphere material="color: #30F51E" position="36 1.691 -56" data-bs-toggle="modal" data-bs-target="#chaletModal" data-index="13"></a-sphere>
     </a-scene>
+
+    <div class="modal fade" id="chaletModal" tabindex="-1" aria-labelledby="chaletModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="chaletModalLabel">Titre du Chalet</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p id="chaletModalDescription">Description du chalet</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer>
       <h3>© 2024 - Marché de Noël de Béziers</h3>
@@ -47,5 +63,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="../chalets.js"></script>
   </body>
 </html>
